@@ -1,0 +1,111 @@
+* {
+  font-size: 17px;
+  font-family: "Terminus (TTF)";
+}
+
+window#waybar {
+    background: rgba(0,0,0,0);
+    color: #c5c8c6;
+}
+
+#workspaces button {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+
+#workspaces button.focused {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-bottom: 3px solid;
+}
+
+#battery {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+
+#clock {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+
+#memory {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: #c5c8c6;
+}
+#disk {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: #c5c8c6;
+}
+#cpu {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+#temperature {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+#pulseaudio {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+
+#network {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
