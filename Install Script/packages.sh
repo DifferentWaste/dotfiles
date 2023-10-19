@@ -12,5 +12,13 @@ cp kitty -r ~/.config/
 cp wallpapers -r ~/Pictures/
 cp waybar -r /etc/xdg/
 
+cd
+mkdir aur
+cd /aur
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -s -i -c
+
 echo "GOOD TO GO"
  
