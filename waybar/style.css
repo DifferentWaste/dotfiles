@@ -12,10 +12,10 @@ window#waybar {
   margin: 3px 3px 3px 0px;
   padding: 5px 7px 5px 5px;
   background: #1d1f21;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   color: #c5c8c6;
 }
 
@@ -79,6 +79,16 @@ window#waybar {
   color: #c5c8c6;
 }
 #temperature {
+  margin: 3px 3px 3px 0px;
+  padding: 5px 7px 5px 5px;
+  background: #1d1f21;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #c5c8c6;
+}
+#backlight {
   margin: 3px 3px 3px 0px;
   padding: 5px 7px 5px 5px;
   background: #1d1f21;
