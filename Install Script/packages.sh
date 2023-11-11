@@ -1,7 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu amd-ucode arc-gtk-theme ark base base-devel bitwarden brave-bin btop btrfs-progs dolphindunst efibootmgr feh firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hyprland hyprpaper iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh  man-db man-pages materia-gtk-theme nanoneofetch nerdfetch network-manager-applet networkmanager openssh otf-font-awesome pacman-contrib plasma-desktop plasma-meta plasma-wayland-protocols plasma-wayland-session qbittorrent qt5ct qt6-wayland reflector sddm starship sway swayidle thunar thunar-volman ttf-firacode-nerd ttf-liberation udisks2-qt5 ufw veracrypt vi vim waybar wget wireless_tools wofi zram-generator 
-mkdir -p ~/Downloads
+sudo pacman -Syu amd-ucode arc-gtk-theme ark base base-devel bitwarden brave-bin btop btrfs-progs dolphin dunst efibootmgr feh firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hyprland hyprpaper iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh  man-db man-pages materia-gtk-theme nanoneofetch nerdfetch network-manager-applet networkmanager openssh otf-font-awesome pacman-contrib plasma-desktop plasma-meta plasma-wayland-protocols plasma-wayland-session qbittorrent qt5ct qt6-wayland reflector sddm starship sway swayidle thunar thunar-volman ttf-firacode-nerd ttf-liberation udisks2-qt5 ufw veracrypt vi vim waybar wget wireless_tools wofi zram-generator 
 mkdir -p ~/Pictures
 cd ~/Downloads
 cd dotfiles
