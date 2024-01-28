@@ -7,7 +7,6 @@ mv -v kitty ~/.config
 mv -v starship.toml ~/.config
 mv -v waybar ~/.config
 mv -v wallpapers ~/Pictures/
-mv -v ufw /etc/
 cd ~/
 rmdir -v --ignore-fail-on-non-empty dotfiles
 sudo pacman -Syu amd-ucode arc-gtk-theme bitwarden btop dolphin dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hyprland hyprpaper iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh man-db man-pages materia-gtk-theme nano networkmanager otf-font-awesome pacman-contrib pavucontrol plasma-desktop plasma-meta plasma-wayland-protocols plasma-wayland-session pulseaudio pulseaudio-alsa pulsemixer qbittorrent qt5-wayland qt5ct qt6-wayland reflector smartmontools sof-firmware starship sway swayidle thunar thunar-volman ttf-firacode-nerd ttf-liberation tumbler udisks2-qt5 ufw veracrypt vim waybar wget wireless_tools wofi xdg-desktop-portal-hyprland xdg-utils 
