@@ -1,6 +1,7 @@
 #!/bin/bash
 cd ~/
 cd dotfiles
+mv -v .bashrc ~/
 mv -v dunst ~/.config
 mv -v hypr ~/.config
 mv -v kitty ~/.config
