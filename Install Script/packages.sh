@@ -25,6 +25,5 @@ echo "
 ###  ### ### ##     #   ###   ###  ###
 "
 echo 
-"Don't forget aur packages need manual install - per your discretion
-You still need to configure Starship in bash config"
+"DON'T FORGET AUR PACKAGES - PER YOUR DISCRETION"
  
