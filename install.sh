@@ -19,11 +19,12 @@ sudo pacman -Syu amd-ucode arc-gtk-theme bitwarden btop breeze breeze-gtk dolphi
 gsettings set org.gnome.desktop.interface gtk-theme 'Breeze'
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 mkdir -v aur
-cd /aur
+cd aur
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -s -i -c --noconfirm
 yay -Syu proton-mail-bin mullvad-browser-bin librewolf-bin signal-desktop-beta-bin brave-bin --noconfirm
+cd ~/
 echo "
                                                                                                                                                                             
                                                                                                                                                                             
