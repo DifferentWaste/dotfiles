@@ -40,7 +40,7 @@ mv -v wallpapers ~/Pictures/
 mv -v qBittorrent ~/.config
 cd ~/
 
-sudo pacman -Syu amd-ucode arc-gtk-theme bitwarden btop breeze breeze-gtk dolphin dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hypridle hyprland hyprlang hyprlock hyprpaper hyprutils iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh lxappearance man-db man-pages materia-gtk-theme nano networkmanager nwg-look otf-font-awesome pacman-contrib pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse qbittorrent qt5-wayland qt5ct qt6-wayland reflector slurp smartmontools sof-firmware starship sway swayidle thunar thunar-volman ttf-firacode-nerd ttf-liberation tumbler udisks2-qt5 ufw veracrypt vim waybar wget wireless_tools wl-clipboard wofi xdg-desktop-portal-hyprland xdg-utils 
+sudo pacman -Syu amd-ucode arc-gtk-theme bitwarden btop breeze breeze-gtk dolphin dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hypridle hyprland hyprlang hyprlock hyprpaper hyprutils iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh lxappearance man-db man-pages materia-gtk-theme nano networkmanager nwg-look otf-font-awesome pacman-contrib pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse qbittorrent qt5-wayland qt5ct qt6-wayland reflector slurp smartmontools sof-firmware starship sway thunar thunar-volman ttf-firacode-nerd ttf-liberation tumbler udisks2-qt5 ufw veracrypt vim waybar wget wireless_tools wl-clipboard wofi xdg-desktop-portal-hyprland xdg-utils 
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Breeze'
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
