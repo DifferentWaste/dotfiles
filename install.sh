@@ -42,7 +42,7 @@ cd aur
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -s -i -c --noconfirm
-yay -Syu proton-mail-bin mullvad-browser-bin librewolf-bin signal-desktop-beta-bin brave-bin --noconfirm
+yay -Syu proton-mail-bin mullvad-browser-bin librewolf-bin signal-desktop-beta-bin --noconfirm
 cd ~/
 echo " ██████╗  ██████╗  ██████╗ ██████╗     ████████╗ ██████╗      ██████╗  ██████╗ ";
 echo "██╔════╝ ██╔═══██╗██╔═══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗    ██╔════╝ ██╔═══██╗";
