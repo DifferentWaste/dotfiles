@@ -16,11 +16,10 @@ echo "  \_   \ _ __   ___ | |_   __ _ | || |            ";
 echo "   / /\/| '_ \ / __|| __| / _\` || || |            ";
 echo "/\/ /_  | | | |\__ \| |_ | (_| || || |            ";
 echo "\____/  |_| |_||___/ \__| \__,_||_||_|            ";
-echo "                                                  ";
 
 
 cd ~/
-mkdir -v Documents Downloads Pictures Music Videos
+mkdir -v Documents Downloads Pictures Pictures/Screenshots Music Videos
 cd dotfiles
 sudo mv -v pacman.conf /etc/
 mv -v wofi ~/.config
@@ -51,7 +50,6 @@ echo "██║  ███╗██║   ██║██║   ██║██║
 echo "██║   ██║██║   ██║██║   ██║██║  ██║       ██║   ██║   ██║    ██║   ██║██║   ██║";
 echo "╚██████╔╝╚██████╔╝╚██████╔╝██████╔╝       ██║   ╚██████╔╝    ╚██████╔╝╚██████╔╝";
 echo " ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝        ╚═╝    ╚═════╝      ╚═════╝  ╚═════╝ ";
-echo "                                                                               ";
 
 
 
