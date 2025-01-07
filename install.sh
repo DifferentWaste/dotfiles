@@ -44,6 +44,11 @@ cd yay
 makepkg -s -i -c --noconfirm
 yay -Syu proton-mail-bin mullvad-browser-bin librewolf-bin signal-desktop-beta-bin --noconfirm
 cd ~/
+sudo ufw default deny
+sudo ufw allow from 192.168.0.0/24
+sudo ufw limit ssh
+sudo ufw enable
+sudo ufw status -v
 echo " ██████╗  ██████╗  ██████╗ ██████╗     ████████╗ ██████╗      ██████╗  ██████╗ ";
 echo "██╔════╝ ██╔═══██╗██╔═══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗    ██╔════╝ ██╔═══██╗";
 echo "██║  ███╗██║   ██║██║   ██║██║  ██║       ██║   ██║   ██║    ██║  ███╗██║   ██║";
