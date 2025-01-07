@@ -49,10 +49,21 @@ sudo ufw allow from 192.168.0.0/24
 sudo ufw limit ssh
 sudo ufw enable
 sudo ufw status -v
-echo " ██████╗  ██████╗  ██████╗ ██████╗     ████████╗ ██████╗      ██████╗  ██████╗ ";
-echo "██╔════╝ ██╔═══██╗██╔═══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗    ██╔════╝ ██╔═══██╗";
-echo "██║  ███╗██║   ██║██║   ██║██║  ██║       ██║   ██║   ██║    ██║  ███╗██║   ██║";
-echo "██║   ██║██║   ██║██║   ██║██║  ██║       ██║   ██║   ██║    ██║   ██║██║   ██║";
-echo "╚██████╔╝╚██████╔╝╚██████╔╝██████╔╝       ██║   ╚██████╔╝    ╚██████╔╝╚██████╔╝";
-echo " ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝        ╚═╝    ╚═════╝      ╚═════╝  ╚═════╝ ";
-                                                                                                                                                                            
+
+echo "                                                                   dddddddd                                                                                        ";
+echo "        GGGGGGGGGGGGG                                              d::::::d              tttt                                        GGGGGGGGGGGGG                 ";
+echo "     GGG::::::::::::G                                              d::::::d           ttt:::t                                     GGG::::::::::::G                 ";
+echo "   GG:::::::::::::::G                                              d::::::d           t:::::t                                   GG:::::::::::::::G                 ";
+echo "  G:::::GGGGGGGG::::G                                              d:::::d            t:::::t                                  G:::::GGGGGGGG::::G                 ";
+echo " G:::::G       GGGGGG   ooooooooooo      ooooooooooo       ddddddddd:::::d      ttttttt:::::ttttttt       ooooooooooo         G:::::G       GGGGGG   ooooooooooo   ";
+echo "G:::::G               oo:::::::::::oo  oo:::::::::::oo   dd::::::::::::::d      t:::::::::::::::::t     oo:::::::::::oo      G:::::G               oo:::::::::::oo ";
+echo "G:::::G              o:::::::::::::::oo:::::::::::::::o d::::::::::::::::d      t:::::::::::::::::t    o:::::::::::::::o     G:::::G              o:::::::::::::::o";
+echo "G:::::G    GGGGGGGGGGo:::::ooooo:::::oo:::::ooooo:::::od:::::::ddddd:::::d      tttttt:::::::tttttt    o:::::ooooo:::::o     G:::::G    GGGGGGGGGGo:::::ooooo:::::o";
+echo "G:::::G    G::::::::Go::::o     o::::oo::::o     o::::od::::::d    d:::::d            t:::::t          o::::o     o::::o     G:::::G    G::::::::Go::::o     o::::o";
+echo "G:::::G    GGGGG::::Go::::o     o::::oo::::o     o::::od:::::d     d:::::d            t:::::t          o::::o     o::::o     G:::::G    GGGGG::::Go::::o     o::::o";
+echo "G:::::G        G::::Go::::o     o::::oo::::o     o::::od:::::d     d:::::d            t:::::t          o::::o     o::::o     G:::::G        G::::Go::::o     o::::o";
+echo " G:::::G       G::::Go::::o     o::::oo::::o     o::::od:::::d     d:::::d            t:::::t    tttttto::::o     o::::o      G:::::G       G::::Go::::o     o::::o";
+echo "  G:::::GGGGGGGG::::Go:::::ooooo:::::oo:::::ooooo:::::od::::::ddddd::::::dd           t::::::tttt:::::to:::::ooooo:::::o       G:::::GGGGGGGG::::Go:::::ooooo:::::o";
+echo "   GG:::::::::::::::Go:::::::::::::::oo:::::::::::::::o d:::::::::::::::::d           tt::::::::::::::to:::::::::::::::o        GG:::::::::::::::Go:::::::::::::::o";
+echo "     GGG::::::GGG:::G oo:::::::::::oo  oo:::::::::::oo   d:::::::::ddd::::d             tt:::::::::::tt oo:::::::::::oo           GGG::::::GGG:::G oo:::::::::::oo ";
+echo "        GGGGGG   GGGG   ooooooooooo      ooooooooooo      ddddddddd   ddddd               ttttttttttt     ooooooooooo                GGGGGG   GGGG   ooooooooooo   ";
