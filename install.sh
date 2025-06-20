@@ -50,6 +50,8 @@ sudo ufw limit ssh
 sudo ufw enable
 sudo ufw status 
 
+systemctl enable ufw
+systemctl start ufw
 systemctl enable reflector.timer
 systemctl enable apparmor
 systemctl enable paccache.timer
