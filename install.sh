@@ -19,7 +19,13 @@ echo "\____/  |_| |_||___/ \__| \__,_||_||_|            ";
 
 
 cd ~/
-mkdir -v Documents Downloads Pictures Pictures/Screenshots Music Videos
+mkdir -v Documents 
+mkdir -v Downloads 
+mkdir -v Pictures 
+mkdir -v Pictures/Screenshots 
+mkdir -v Music 
+mkdir -v Videos
+
 cd dotfiles
 sudo mv -v pacman.conf /etc/
 mv -v wofi ~/.config
@@ -31,6 +37,7 @@ mv -v starship.toml ~/.config
 mv -v waybar ~/.config
 mv -v wallpapers ~/Pictures/
 mv -v qBittorrent ~/.config
+mv -v plasma.sh ~/
 cd ~/
 
 sudo pacman -Syu amd-ucode apparmor arc-gtk-theme bitwarden btop breeze breeze-gtk dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hypridle hyprland hyprlang hyprlock hyprpaper hyprutils iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh lxappearance man-db man-pages materia-gtk-theme nano networkmanager noto-fonts-emoji nwg-look otf-font-awesome pacman-contrib pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-integration qbittorrent qt5-wayland qt5ct qt6-wayland reflector signal-desktop slurp smartmontools sof-firmware starship sway thunar thunar-volman ttf-firacode-nerd ttf-liberation ttf-terminus-nerd tumbler udisks2-qt5 ufw veracrypt vim waybar wget wireless_tools wl-clipboard wofi xdg-desktop-portal-hyprland xdg-utils 
