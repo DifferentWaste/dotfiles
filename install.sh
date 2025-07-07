@@ -38,10 +38,11 @@ mv -v waybar ~/.config
 mv -v wallpapers ~/Pictures/
 mv -v qBittorrent ~/.config
 mv -v plasma.sh ~/
-sudo mv -v 50-usb-power_save_rules /etc/udev/rules.d
+sudo cp -v 50-usb-power_save_rules /etc/udev/rules.d
+sudo cp -r dedsec /boot/grub/themes/
 cd ~/
 
-sudo pacman -Syu amd-ucode apparmor bitwarden btop breeze breeze-gtk dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hypridle hyprland hyprlang hyprlock hyprpaper hyprutils iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh lxappearance man-db man-pages materia-gtk-theme nano networkmanager noto-fonts-emoji nwg-look otf-font-awesome pacman-contrib pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-desktop plasma-integration qbittorrent qt5-wayland qt5ct qt6-wayland reflector signal-desktop slurp smartmontools sof-firmware starship steam sway thunar thunar-volman ttf-firacode-nerd ttf-liberation ttf-terminus-nerd tumbler udisks2-qt5 ufw veracrypt vim vulkan-radeon vulkan-tools waybar wget wireless_tools wl-clipboard wofi xdg-desktop-portal-hyprland xdg-utils 
+sudo pacman -Syu amd-ucode apparmor bitwarden btop breeze breeze-gtk dunst efibootmgr feh ffmpegthumbnailer firefox firejail git gnome-boxes grim gtk4 gvfs gvfs-gphoto2 gvfs-mtp htop hypridle hyprland hyprlang hyprlock hyprpaper hyprutils iwd kate kde-gtk-config kitty kvantum kwayland-integration libreoffice-fresh lxappearance man-db man-pages materia-gtk-theme nano networkmanager noto-fonts-emoji nwg-look os-prober otf-font-awesome pacman-contrib pavucontrol pipewire pipewire-alsa pipewire-jack pipewire-pulse plasma-desktop plasma-integration qbittorrent qt5-wayland qt5ct qt6-wayland reflector signal-desktop slurp smartmontools sof-firmware starship steam sway thunar thunar-volman ttf-firacode-nerd ttf-liberation ttf-terminus-nerd tumbler udisks2-qt5 ufw unzip veracrypt vim vlc vulkan-radeon vulkan-tools waybar wget wireless_tools wl-clipboard wofi xdg-desktop-portal-hyprland xdg-utils 
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Breeze'
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
@@ -83,4 +84,5 @@ echo "     GGG::::::GGG:::G oo:::::::::::oo  oo:::::::::::oo   d:::::::::ddd::::
 echo "        GGGGGG   GGGG   ooooooooooo      ooooooooooo      ddddddddd   ddddd               ttttttttttt     ooooooooooo                GGGGGG   GGGG   ooooooooooo   ";
 
 
-echo " enable apparmor in /boot/loader/entries as lsm=landlock,lockdown,yama,integrity,apparmor,bpf"
+echo " enable apparmor in /boot/loader/entries as lsm=landlock,lockdown,yama,integrity,apparmor,bpf
+enable gfx in grub and run grub-mkconfig"
