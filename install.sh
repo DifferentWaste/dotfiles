@@ -85,4 +85,10 @@ echo "        GGGGGG   GGGG   ooooooooooo      ooooooooooo      ddddddddd   dddd
 
 
 echo " enable apparmor in /boot/loader/entries as lsm=landlock,lockdown,yama,integrity,apparmor,bpf
-enable gfx in grub and run grub-mkconfig"
+
+enable gfx in grub and run grub-mkconfig
+sudo nano /etc/default/grub
+Find the line GRUB_THEME= then change it to GRUB_THEME="/boot/grub/themes/dedsec/theme.txt"
+save the file.
+update the grub.
+sudo grub-mkconfig -o /boot/grub/grub.cfg"
