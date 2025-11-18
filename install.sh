@@ -64,6 +64,7 @@ systemctl start ufw
 systemctl enable reflector.timer
 systemctl enable apparmor
 systemctl enable paccache.timer
+systemctl enable fstrim.timer
 
 echo "                                                                   dddddddd                                                                                        ";
 echo "        GGGGGGGGGGGGG                                              d::::::d              tttt                                        GGGGGGGGGGGGG                 ";
