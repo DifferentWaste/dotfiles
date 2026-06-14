@@ -25,6 +25,7 @@ mkdir -v Pictures
 mkdir -v Pictures/Screenshots 
 mkdir -v Music 
 mkdir -v Videos
+mkdir -v ~/.config/niri
 
 cd dotfiles
 sudo mv -v pacman.conf /etc/
@@ -38,6 +39,7 @@ mv -v waybar ~/.config
 mv -v wallpapers ~/Pictures/
 mv -v qBittorrent ~/.config
 mv -v plasma.sh ~/
+mv -v config.kdl ~/.config/niri
 sudo cp -v 50-usb-power_save_rules /etc/udev/rules.d
 sudo cp -r dedsec /boot/grub/themes/
 cd ~/
